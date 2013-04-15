@@ -28,8 +28,6 @@ for i in $FILES; do
   ln -s ~/.dotfiles/$i ~/$i
 done
 
-echo "Github password: "
-read GITHUB_PASSWORD
-git config --global github.password "$GITHUB_PASSWORD"
-
 echo "installation complete"
+echo "You may want to run \`git config --global github.password 'your github password'\`"
+echo "to setup your github password"

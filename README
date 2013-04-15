@@ -1,7 +1,9 @@
 about: my dotfiles
 WARNING: INSTALLATION IS A DESTRUCTIVE OPERATION THIS IS YOUR ONLY WARNING
-install: curl https://github.com/chocopoche/dotfiles/raw/master/install.sh | /bin/sh
+install:
 
+  $ curl https://raw.github.com/chocopoche/dotfiles/master/install.sh | /bin/sh
+  $ git config --global github.password "your github password"
 
 Licence
 
