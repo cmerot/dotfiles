@@ -21,7 +21,7 @@ else
   git clone git://github.com/chocopoche/dotfiles.git .dotfiles
 fi
 
-FILES=".vimrc .bashrc .profile .bash_aliases .vim .gitconfig"
+FILES=".vimrc .bashrc .profile .bash_aliases .bash_completion .vim .gitconfig"
 for i in $FILES; do
   echo installing: ~/.dotfiles/$i ~/$i
   rm -rf ~/$i
